@@ -42,3 +42,39 @@ print(message)
 # user_name = input("Enter your name: ")
 # user_age = input("Enter your age: ")
 # print(f"Hello {user_name}, you are {user_age} years old.")
+# 9️⃣ Lists
+fruits = ["apple", "banana", "cherry"]
+print("Fruits:", fruits)
+fruits.append("orange")        # add an item
+fruits.remove("banana")        # remove an item
+print("Updated Fruits:", fruits)
+print("First fruit:", fruits[0])  # indexing
+
+# 1️⃣0️⃣ Tuples (like lists, but immutable)
+colors = ("red", "green", "blue")
+print("Colors:", colors)
+print("First color:", colors[0])
+
+# 1️⃣1️⃣ Sets (unordered, unique items)
+numbers = {1, 2, 3, 2, 1}
+print("Numbers set:", numbers)
+numbers.add(4)
+print("Updated numbers:", numbers)
+
+# 1️⃣2️⃣ Dictionaries (key-value pairs)
+person = {
+    "name": "Samuel",
+    "age": 21,
+    "language": "Python"
+}
+print("Person dictionary:", person)
+print("Person's name:", person["name"])
+person["country"] = "Kenya"   # add a new key
+print("Updated dictionary:", person)
+
+# 1️⃣3️⃣ Type Summary
+print(type(fruits))
+print(type(colors))
+print(type(numbers))
+print(type(person))
+
