@@ -1,2 +1,2 @@
 # python-learning-log
-my daily python practice and projects
+my daily python practice and projects lets learn stuff 
